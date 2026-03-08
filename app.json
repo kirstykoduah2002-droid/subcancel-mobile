@@ -7,12 +7,14 @@
     "ios": {
       "bundleIdentifier": "com.subcancel.app",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSSpeechRecognitionUsageDescription": "SubCancel needs access to speech recognition to help you manage your subscriptions via voice commands.",
+        "NSMicrophoneUsageDescription": "SubCancel needs access to your microphone for voice input features."
       }
     },
     "extra": {
       "eas": {
-        "projectId": "8ed44fe4-8ca5-4840-b5fa-7cd86d210a0e"
+        "projectId": "1aad3ef1-1550-4d14-ae6c-d8dcadaebc32"
       }
     }
   }

@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "SubCancel",
+    "slug": "subcancel-kirsty",
+    "owner": "kirstykoduah",
+    "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "com.subcancel.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8ed44fe4-8ca5-4840-b5fa-7cd86d210a0e"
+      }
+    }
+  }
+}
