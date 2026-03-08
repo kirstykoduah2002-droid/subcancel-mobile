@@ -5,7 +5,7 @@
     "owner": "kirstykoduah",
     "version": "1.0.0",
     "ios": {
-      "bundleIdentifier": "com.subcancel.app",
+      "bundleIdentifier": "com.subcancel.subscription",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
         "NSSpeechRecognitionUsageDescription": "SubCancel needs access to speech recognition to help you manage your subscriptions via voice commands.",
