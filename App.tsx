@@ -1,11 +1,16 @@
 import React from 'react';
-import { View, Text, StyleSheet, SafeAreaView, StatusBar } from 'react-native';
+import { View, Text, StyleSheet, SafeAreaView, StatusBar, Image } from 'react-native';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
       <View style={styles.content}>
+        <Image 
+          source={require('./assets/logo.png')} 
+          style={styles.logo}
+          resizeMode="contain"
+        />
         <Text style={styles.title}>SubCancel Pro</Text>
         <Text style={styles.subtitle}>Manage your subscriptions</Text>
         <Text style={styles.version}>Version 1.0</Text>
@@ -25,6 +30,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 20,
   },
+  logo: {
+    width: 150,
+    height: 150,
+    marginBottom: 30,
+  },
   title: {
     fontSize: 32,
     fontWeight: 'bold',
@@ -41,4 +51,3 @@ const styles = StyleSheet.create({
     color: '#999999',
   },
 });
-
